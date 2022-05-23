@@ -226,23 +226,23 @@ export const officeLists = [
       url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
     },
   },
-  {
-    id: 8,
-    type: 'Feature',
-    geometry: {
-      type: 'Point',
-      coordinates: [49.0243446, -122.27483],
-    },
-    properties: {
-      state: 'BC',
-      ZipCode: '93308',
-      name: 'Abbotsford BC V2S 7P1',
-      address: '1225 Riverside Rd, Abbotsford, BC V2S 7P1',
-      phone: '661-859-4671',
-      email: 'jaimerodriguez@kaltires.com',
-      url: 'https://www.google.com/maps/place/1225+Riverside+Rd,+Abbotsford,+BC+V2S+7P1,+Canada/@49.0243446,-122.27483,17z/data=!4m5!3m4!1s0x54844ae9d00fadc1:0xd47fb33380922fab!8m2!3d49.0243728!4d-122.2726413',
-    },
-  },
+  // {
+  //   id: 8,
+  //   type: 'Feature',
+  //   geometry: {
+  //     type: 'Point',
+  //     coordinates: [49.0243446, -122.27483],
+  //   },
+  //   properties: {
+  //     state: 'BC',
+  //     ZipCode: '93308',
+  //     name: 'Abbotsford BC V2S 7P1',
+  //     address: '1225 Riverside Rd, Abbotsford, BC V2S 7P1',
+  //     phone: '661-859-4671',
+  //     email: 'jaimerodriguez@kaltires.com',
+  //     url: 'https://www.google.com/maps/place/1225+Riverside+Rd,+Abbotsford,+BC+V2S+7P1,+Canada/@49.0243446,-122.27483,17z/data=!4m5!3m4!1s0x54844ae9d00fadc1:0xd47fb33380922fab!8m2!3d49.0243728!4d-122.2726413',
+  //   },
+  // },
   {
     id: 9,
     type: 'Feature',
