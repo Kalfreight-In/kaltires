@@ -23,7 +23,7 @@ const HeroSection = () => {
     <HeroContainer id="Home">
       <HeroBg></HeroBg>
       <HeroContent>
-        <HeroH1>KAL TIRES</HeroH1>
+        <HeroH1>KVL TIRES</HeroH1>
         <HeroP>BECAUSE SO MUCH IS RIDING ON YOUR TIRES</HeroP>
       </HeroContent>
       <HeroPromoContainer>

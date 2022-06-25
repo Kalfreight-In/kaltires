@@ -36,7 +36,7 @@ const ContactSection = ({ isOpen, toggle }) => {
       <ContactImage>
         <AboutContainerHeading>Contact</AboutContainerHeading>
         <AboutContainerSubHeading>Keep In Touch</AboutContainerSubHeading>
-        <img src={logo} alt="Logo Of KalTire" height="500em" />
+        <img src={logo} alt="Logo Of KVLTire" height="500em" />
       </ContactImage>
     </ContactContainer>
   );

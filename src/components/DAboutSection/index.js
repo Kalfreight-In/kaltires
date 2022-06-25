@@ -20,10 +20,10 @@ const DAboutSection = ({ isOpen, toggle }) => {
     <AboutContainer id="About">
       <AboutContainerContent>
         <AboutContainerTextContent>
-          <AboutContainerHeading>KAL TIRES</AboutContainerHeading>
+          <AboutContainerHeading>KVL TIRES</AboutContainerHeading>
           <AboutContainerSubHeading>Who we are</AboutContainerSubHeading>
           <AboutContainerPara>
-            Kal Tires has 9 distribution centers, 4 service centers and
+            KVL Tires has 9 distribution centers, 4 service centers and
             nationwide 24/7 emergency road service. Exclusive with major tire
             manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama,
             Double Coin, Pirelli and Hankook. We offer national account billing

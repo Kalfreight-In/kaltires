@@ -23,7 +23,7 @@ const FooterSection = ({ isOpen, toggle }) => {
   return (
     <FooterContainer id="Footertag">
       <FooterLogo>
-        <img src={logo} alt="Logo of KAlTires" />
+        <img src={logo} alt="Logo of KVLTires" />
       </FooterLogo>
       <footerMobileContainer>
         <FotterNav>
@@ -97,7 +97,7 @@ const FooterSection = ({ isOpen, toggle }) => {
       </FotterSocialMedia>
 
       <FotterContactN>
-        © Kal Tires Inc, 2021 All rights reserved.{' '}
+        © KVL Tires Inc, 2021 All rights reserved.{' '}
       </FotterContactN>
     </FooterContainer>
   );
