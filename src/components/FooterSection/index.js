@@ -30,7 +30,7 @@ const FooterSection = ({ isOpen, toggle }) => {
           <FotterContact>
             <FotterContactlist>
               <FotterContactName>
-                <a href="mailto:info@kaltires.com">
+                <a href="mailto:info@kvltires.com">
                   <SocialMediaActions>
                     <AiOutlineMail />
                   </SocialMediaActions>
@@ -38,7 +38,7 @@ const FooterSection = ({ isOpen, toggle }) => {
                 Email us
               </FotterContactName>
 
-              <FotterContactNo>info@kaltires.com</FotterContactNo>
+              <FotterContactNo>info@kvltires.com</FotterContactNo>
             </FotterContactlist>
           </FotterContact>
           {/* <hr align="left" width="100%"></hr> */}
