@@ -224,16 +224,21 @@ export default function ContactMap() {
         </OfficeList>
         <MapInside id="map">
           <MapContainer
-            center={[41.383963586538215, -103.39861412458325]}
-            zoom={5}
-            scrollWheelZoom={true}
+            center={[40.8054, -74.0241]}
+            zoom={20}
+            scrollWheelZoom={false}
+            style={{ height: '800px', width: '50%' }}
           >
             <TileLayer
-              url={`https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=${'pk.eyJ1Ijoic3NvYW0iLCJhIjoiY2wwc2w5dG01MGVrczNsb3BpdzlpMTNpbiJ9.KmtZJcORKZMCerqGFGQUuQ'}`}
+              url={`
+           https://api.mapbox.com/styles/v1/ssoam/cl77qs9yq000c14uk4kv9ecog/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic3NvYW0iLCJhIjoiY2w3N3J5ZTgyMDJwZzNwb3gzYWtxdWttciJ9.g2IBgPyHpz_bDNTAe3g2fw`}
+              attribution='Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>'
             />
 
             {officeLists.map((eachData) => (
               <Marker
+                draggable
+                animate
                 key={eachData.id}
                 position={eachData.geometry.coordinates}
                 eventHandlers={{
@@ -267,7 +272,7 @@ export default function ContactMap() {
 
                   <p>Phone: {office.properties.phone}</p>
                   <p>
-                    email: <a>{office.properties.email}</a>
+                    email: <a href="/">{office.properties.email}</a>
                   </p>
                 </div>
               </Popup>
